@@ -663,19 +663,50 @@ section {
   padding: 30px 0;
 }
 .features .content .icon-box {
-  margin-top: 25px;
+  margin-top: 60px;
+  margin-left: 20px;
+  background: #5777ba;
+  color: #fff;
+  border-top: 4px solid #15294E;
+  text-align: center;
+  padding: 30px 20px;
+
 }
 .features .content .icon-box h4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
+  text-align: right;
   margin: 5px 0 10px 60px;
+
 }
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5777ba;
+  color: #fff;
 }
 .features .content .icon-box p {
+  font-size: 12px;
+  color: #F1F3F6;
+  margin-left: 30px;
+  text-align: right;
+  line-height: 18px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.features .content .icon-boxx {
+  margin-top: 25px;
+}
+.features .content .icon-boxx h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+.features .content .icon-boxx i {
+  font-size: 48px;
+  float: left;
+  color: #5777ba;
+}
+.features .content .icon-boxx p {
   font-size: 15px;
   color: #979aa1;
   margin-left: 60px;
@@ -693,7 +724,11 @@ section {
     max-width: 100%;
   }
 }
-
+@media (max-width: 667px) {
+  .features .content .icon-box {
+    margin: -20px 0 30px 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Details
@@ -704,7 +739,7 @@ section {
 .details .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #47536e;
+  color: #5777ba;
 }
 .details .content ul {
   list-style: none;
